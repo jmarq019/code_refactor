@@ -67,38 +67,15 @@ figure {
     background-position: center;
 }
 
-
-/** Here begins the code for the Aside elements. **/
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+/** Here begins the formatting for the Main element. **/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
-section {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-section h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-section img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/** Here ends the code for the Aside elements. **/
-
-/** Here begins the formatting for the Articles element. **/
-article {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -107,19 +84,12 @@ article {
     color: #ffffff;
 }
 
-/* This defines the formatting for the background for the articles */
-.articleBackground {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 /* This makes the image size proportional for the articles.*/
-article img {
+main img {
     max-height: 200px; 
 }
 
-article h2{
+main section h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -134,7 +104,36 @@ article h2{
     float: right;
     margin-left: 25px;
 }
-/** Here ends the formatting for the three articles. **/
+/** Here ends the formatting for the Main element. **/
+
+/** Here begins the code for the Aside elements. **/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+aside section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+aside section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+aside section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/** Here ends the code for the Aside elements. **/
 
 
 /** Here begins the formatting for the footer. **/
