@@ -11,16 +11,17 @@ a {
 p {
     font-size: 16px;
 }
-/* this ends the styling of elements that are constant throughout. */
 
-/** Here begins the formatting for the Header elements. **/
-/* This removes the space between the header and the image below it. */ 
+
+/* This modifies everything on the page. */ 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/* this ends the styling of elements that are constant throughout. */
 
+/** Here begins the formatting for the Header elements. **/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
